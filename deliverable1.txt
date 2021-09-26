@@ -1,0 +1,13 @@
+Jack Reinhardt: C2 Project Deliverables
+
+DELIVERABLE 1:
+
+What is a C2? - A C2, or 'command and control' server is a machine controlled by an attacker which is used to send commands to compromised systems and receive data from said compromised systems.
+
+What is an agent? - An agent is a program that is run on the compromised machines to establish and maintain communications with the C2 server.
+
+What is server/client infrastructure? - Client-Server infrastructure is an architecture of a computer network where many clients request and receive service from a single centralized server. 
+
+A feature I would like to see is the ability to administer compromised machines via a discord bot.
+
+I hope to learn how computers are able to interact with one another via a simple program and see how more advanced threat actors design and implement command and control servers for their campaigns.
