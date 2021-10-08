@@ -1,0 +1,13 @@
+Cody Blanchard: C2 Deliverables
+
+Deliverable 1:
+
+What is a C2? A C2 is an command and control infrastructure server that controls many other devices like in a botnet.
+
+What is an Agent? An agent polls the C2 server for instructions at a set interval.
+
+What is Server/Client Infrastructure? Server/Client infrastructure is where a server(host computer) waits for clients(other computers) to request something from the server.
+
+Feature you want? I would like to add encryption as a feature.
+
+What do you want to learn? I would like to learn more about DDoS attacks. 
