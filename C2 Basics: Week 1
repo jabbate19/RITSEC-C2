@@ -1,5 +1,44 @@
-Deliverables: What is C2? What is an Agent? What is Server/Client Infrastructure? Features you want? What do you want to learn?
+Deliverable 1: What is C2? What is an Agent? What is Server/Client Infrastructure? Features you want? What do you want to learn?
 
-C2:
+C2: Stands for Command and Control Infrastructure...why?
+
+It is a set of tools attackers use to maintain communication and 
+exploit compromised devices. The MITRE attack framework actually
+lists 16 different command and control techniques. The idea is that
+you don't want the host system to know or detect C2 functionalities.
+
 Agent:
+Agents are the malicious processes which run on compromised hosts 
+and perform actions on those hosts and the network. 
+
 Server/Client Infrastructure:
+
+Client-server architecture of a computer network models several clients
+connecting and communicating with a centralized server. Client computers 
+provide an interface to allow a computer user to request services of the server 
+and to display the results the server returns. Servers wait for requests 
+to arrive from clients and then respond to them. At its most basic level,
+when we make a C2 server, the idea is for clients, or zombies, being able 
+to send data gathered from the agents to a main C2 server.
+
+Some other useful vocabulary:
+ZOMBIE: a computer or other type of connected device that’s been 
+infected with some form of malware and can be remotely controlled by a malicious 
+party without the real owner’s knowledge or consent. 
+BOTNET: a collection of zombie machines that are enlisted 
+for a common illicit purpose. We see a lot of this with cryptocurrency.
+BEACONING: refers to the process of an infected device phoning home to an attacker’s 
+C2 infrastructure to check for instructions or additional payloads.
+
+Some features:
+-A keylogger of some sorts (possibly get passwords/financial info)
+-Be able to gather network traffic (possibly create a DDoS attack, a very popular
+attack using a C2 server)
+-Cryptomine :)
+-Being able to reboot or shutdown a system altogether
+
+I think the most valuable lesson from creating a C2 server is understanding its
+malicious nature and in the future learn how to detect and eradicate a C2 connection
+on a computer. The reality is that while you can hide your tracks, you can't hide
+them all. To the average user wouldn't be able to detect them. DDoS attacks
+also seem fun :)
