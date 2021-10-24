@@ -1,0 +1,24 @@
+Jack Reinhardt - C2 Project Deliverables
+
+DELIVERABLE 2:
+
+To construct the C2, the team delegated parts/tasks to group member. 
+For this project, I will be researching/creating methods of persistence that our agent can to have compromised clients remain under control of the c2 server.
+
+I consulted the MITRE ATT&CK framework as a means of initial research into what techniques are used in keeping a foothold on compromised systems. 
+This proved to be incredibly helpful in exploring the various paths I could take with this part of the project. 
+To list a few:
+
+•Account Manipulation: Can consist of any action that preserves adversary access to an account, such as modifying credentials or usergroups.
+•Execution on boot/logon: Adversaries can modify system settings to have programs automatically execute upon system boot or user logon.
+•Boot/Logon initializaton scripts: The name is pretty self-explanatory, but for the project, RC scripts may be a likely candidate for gaining footholds on machines, 
+such as rc.local, rc.common, .bashrc, .inputrc
+•Modification of System Processes: These can be modified to execute malicious payloads. These processes are known as services or daemons.
+•Pre-OS Boot Mechanisms: Adversaries can use rootkits/bootkits to modify and install malware on boot sectors of drives in an effort to maintain persistence on a machine.
+•Scheduled Tasks: May facilitate recurring execution of maliciouss code. On linux for example, adversaries can use the 'at' and 'cron' utilities to schedule
+recurring tasks.
+
+These are only a few of many possible vectors that our team could utilize in order to maintain footholds on a machine and evade defense mechanisms.
+
+I like the idea of creating a rootkit though I feel that it may be more appropriate to write such a tool in a system-level language, such as C, C++, Go or ASM, rather than Python.
+I will continue research into the other methods of maintaining persistence, and document my findings + sources in a notes.txt file.
